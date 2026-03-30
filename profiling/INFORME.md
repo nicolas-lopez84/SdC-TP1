@@ -30,7 +30,7 @@ data about, and you must also use it when linking.
 
 El resultado es un ejecutable `test_gprof`. Se verificó con `ls -l` que el archivo fue generado correctamente.
 
-![Paso 1 y 2 - Compilación y ejecución](../../profiling/Imagenes/profiling_procedure.png)
+![Paso 1 y 2 - Compilación y ejecución](Imagenes/profiling_procedure.png)
 
 ---
 
