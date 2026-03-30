@@ -62,7 +62,7 @@ Se ejecutó `gprof` pasándole el ejecutable y el archivo `gmon.out`. El resulta
 gprof ../test_gprof ../code/gmon.out > analysis.txt
 ```
 
-![Paso 3 - Generación de analysis.txt y variantes](analysis.png)
+![Paso 3 - Generación de analysis.txt y variantes](Imagenes/analysis.png)
 
 ---
 
@@ -188,7 +188,7 @@ pipx install gprof2dot
 gprof ../test_gprof ../code/gmon.out | gprof2dot | dot -Tpng -o graph.png
 ```
 
-![Grafo de llamadas](graph.png)
+![Grafo de llamadas](Imagenes/graph.png)
 
 El gráfico muestra claramente la jerarquía de llamadas y el porcentaje de tiempo que consume cada función. `main` ocupa el 100% en la raíz, `func1` consume el 58.92% y `func2` el 37.55%, mientras que `new_func1` es la hoja con el 3.39%.
 
@@ -207,7 +207,7 @@ sudo perf record ./test_gprof
 sudo perf report
 ```
 
-![Linux perf - resultado](linux_perf_profiling.png)
+![Linux perf - resultado](Imagenes/linux_perf_profiling.png)
 
 Resultados obtenidos:
 
